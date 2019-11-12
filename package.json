@@ -1,0 +1,17 @@
+{
+  "name": "protractor-structure",
+  "version": "1.0.0",
+  "description": "Estrutura base de automação com protractor",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm i -g protractor",
+    "test": "protractor conf.js"
+  },
+  "author": "null",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "protractor": "^5.4.2"
+  }
+}
